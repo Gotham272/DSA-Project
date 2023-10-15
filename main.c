@@ -4,7 +4,7 @@
 #include <string.h>
 #include <conio.h>
 #include <windows.h>
-#include <gtk/gtk.h>
+#include <gtk/gtk.h> // gtk download gtk plus
 
 struct person{
   char name[50];

@@ -4,7 +4,7 @@
 #include <string.h>
 #include <conio.h>
 #include <windows.h>
-#include <gtk/gtk.h> // gtk download gtk plus
+// #include <gtk/gtk.h> // gtk download gtk plus
 
 struct person{
   char name[50];
@@ -29,7 +29,7 @@ void search_record();
 int main(void)
 {
 
-void menu(){
+void menu();{
   system("cls");
   printf("\t\tMy PhoneBook");
   printf("\n\n\t\t Main Menu");
